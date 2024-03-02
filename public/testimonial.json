@@ -1,0 +1,37 @@
+[
+  {
+    "logo": "../src/assets/testimonial/logo1.png",
+    "customer_name": "Roxanne Mustafa",
+    "image": "../src/assets/testimonial/client1.png",
+    "designation": "Design Team Lead at VMware",
+    "testimonialsContent": "“When the pandemic hit, those of us who thrive on in-person collaboration were worried that our creativity and productivity would suffer. Miro was the perfect tool to help us with collaboration, whiteboarding, and retrospectives while remote.”"
+  },
+  {
+    "logo": "../src/assets/testimonial/logo2.png",
+    "customer_name": "Jane Smith",
+    "image": "../src/assets/testimonial/cleent2.png",
+    "designation": "CTO",
+    "testimonialsContent": "“Miro helps solve one of the major gaps in product design: how to manage tasks across product designers whose projects are in different tools.”"
+  },
+  {
+    "logo": "../src/assets/testimonial/logo3.png",
+    "customer_name": "Michael Johnson",
+    "image": "../src/assets/testimonial/client3.png",
+    "designation": "COO",
+    "testimonialsContent": "“As we used Miro we moved from skepticism to belief to innovation, and now we have a tool that’s at the core of what we do and will continue to extend into the future.”"
+  },
+  {
+    "logo": "../src/assets/testimonial/logo1.png",
+    "customer_name": "Emily Brown",
+    "image": "../src/assets/testimonial/client1.png",
+    "designation": "VP of Marketing",
+    "testimonialsContent": "“When the pandemic hit, those of us who thrive on in-person collaboration were worried that our creativity and productivity would suffer. Miro was the perfect tool to help us with collaboration, whiteboarding, and retrospectives while remote.”"
+  },
+  {
+    "logo": "../src/assets/testimonial/logo2.png",
+    "customer_name": "David Wilson",
+    "image": "../src/assets/testimonial/client3.png",
+    "designation": "Director of Operations",
+    "testimonialsContent": "“Miro helps solve one of the major gaps in product design: how to manage tasks across product designers whose projects are in different tools.”"
+  }
+]

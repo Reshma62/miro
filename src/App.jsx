@@ -1,3 +1,4 @@
+import BestTeams from "./components/Home/BestTeams/BestTeams";
 import Brainstorming from "./components/Home/Brainstorming";
 import Collaboration from "./components/Home/Collaboration/Collaboration";
 import Hero from "./components/Home/Hero";
@@ -18,6 +19,7 @@ function App() {
       <SectionPart />
       <Brainstorming />
       <UiuxDesign />
+      <BestTeams />
     </>
   );
 }
