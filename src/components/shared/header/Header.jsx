@@ -2,9 +2,10 @@ import { Link } from "react-router-dom";
 import { FaAngleDown, FaArrowRight } from "react-icons/fa6";
 import Logo from "../../../assets/header/logo.png";
 import { TbWorld } from "react-icons/tb";
+import GenericButton from "../button/GenericButton";
 const Header = () => {
   return (
-    <header className="px-[30px] py-[33px]">
+    <header className="px-[30px] py-6 border-b border-solid border-gray-200">
       <div className="flex justify-between items-center">
         {/* menu and logo */}
         <nav className="flex items-center gap-6">
@@ -51,12 +52,7 @@ const Header = () => {
           <Link to={""} className="text-primary">
             Login
           </Link>
-          <Link
-            to={""}
-            className="px-[22px] py-4 flex items-center bg-secondary rounded-full gap-2 text-white"
-          >
-            Sign up free <FaArrowRight />
-          </Link>
+          <GenericButton buttonText={"Sign up free"} />
         </div>
       </div>
     </header>
