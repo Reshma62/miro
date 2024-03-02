@@ -11,7 +11,7 @@ const TrustedUs = () => {
         <h3 className="text-center text-lg text-primary/60 mb-12">
           Trusted by 45M+ users
         </h3>
-        <div className="flex  items-center flex-wrap justify-around">
+        <div className="flex  items-center flex-wrap justify-around mb-7">
           <div>
             <img src={walmart} alt="" />
           </div>
