@@ -1,8 +1,24 @@
-# React + Vite
+# Project Name
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Miro Landing Page
 
-Currently, two official plugins are available:
+## Live Link
+[Visit the Miro Landing Page](https://miro-landing-page.netlify.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
+- [Technologies Used](#technologies-used)
+- [Overview](#overview)
+
+## Technologies Used
+- React.js
+- React Router DOM
+- React Icons
+- Tailwind CSS
+- react-multi-carousel-dot
+
+## Overview
+Miro Landing Page is a modern and responsive landing page created using React.js. The page showcases a seamless user experience and incorporates interactive design elements. It was crafted by converting a Figma design into a functional React.js application, leveraging the power of the Tailwind CSS framework for styling.
+
+The landing page demonstrates the utilization of React.js components and routing through React Router DOM. Additionally, it features the integration of various React libraries including React Icons for scalable vector icons and react-multi-carousel-dot for carousel functionality.
+
+Feel free to explore the live link provided to experience the Miro Landing Page firsthand.
