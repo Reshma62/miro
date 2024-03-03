@@ -9,9 +9,9 @@ const Header = () => {
   const [open, setOpen] = useState(false);
   return (
     <header className="lg:px-[30px] px-5 py-6 border-b border-solid border-gray-200">
-      <div className="flex justify-between items-center">
+      <div className="lg:flex justify-between items-center">
         {/* menu and logo */}
-        <nav className="flex items-center gap-6  relative w-full">
+        <nav className="flex items-center gap-6  relative justify-between">
           <div>
             <img src={Logo} alt="logo" />
           </div>
