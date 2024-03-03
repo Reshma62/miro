@@ -5,10 +5,10 @@ const Collaboration = () => {
   return (
     <section className="py-[60px]">
       <div className="max-w-[450px] mx-auto relative">
-        <h2 className="  text-center font-bold text-5xl tracking-tighter">
+        <h2 className="  text-center font-bold text-3xl lg:text-5xl tracking-tighter">
           Collaborate without constraints
         </h2>
-        <p className="absolute bg-yellow-300 text-primary px-2 py-1 rounded-md inline-block -right-16 -top-14 rotate-[20deg] font-bold uppercase ">
+        <p className="absolute bg-yellow-300 text-primary px-2 py-1 rounded-md inline-block -right-1 lg:-right-16 -top-14 rotate-[20deg] font-bold uppercase ">
           Your Idea starts here
         </p>
       </div>

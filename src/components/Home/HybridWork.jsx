@@ -4,11 +4,11 @@ import { FaArrowRight } from "react-icons/fa6";
 
 const HybridWork = () => {
   return (
-    <section className="py-[60px]">
+    <section className="md:py-[60px] py-6">
       <div className="container">
-        <div className="flex justify-between items-center gap-24">
-          <div className="basis-[40%]">
-            <h2 className="  font-bold text-5xl tracking-tighter">
+        <div className="flex md:flex-row flex-col justify-between items-center gap-5 md:gap-24">
+          <div className="md:basis-[40%]">
+            <h2 className="  font-bold text-4xl lg:text-5xl tracking-tighter">
               Work together, wherever you work
             </h2>
             <p className="text-primary/70 text-lg font-normal  pt-4 pb-10">
@@ -24,7 +24,7 @@ const HybridWork = () => {
               <FaArrowRight />
             </Link>
           </div>
-          <div className="basis-1/2">
+          <div className="md:basis-1/2">
             <img src={hybridImg} alt="" />
           </div>
         </div>

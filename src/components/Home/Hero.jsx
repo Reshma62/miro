@@ -10,7 +10,7 @@ const Hero = () => {
     <section className="py-[60px]">
       <div className="container flex justify-between gap-[60px] flex-col md:flex-row">
         <div>
-          <h1 className="text-primary  text-5xl font-bold max-w-[393px]">
+          <h1 className="text-primary text-4xl  lg:text-5xl font-bold max-w-[393px]">
             Take ideas from better to best
           </h1>
           <p className="text-primary/70 text-lg font-normal max-w-[428px] pt-4 pb-8">

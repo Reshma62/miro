@@ -24,10 +24,10 @@ const BestTeams = () => {
     },
   };
   return (
-    <section className="py-[60px]">
+    <section className="md:py-[60px] py-6">
       <div className="container">
         <div>
-          <h2 className="text-primary  text-5xl font-bold text-center">
+          <h2 className="text-primary text-4xl md:text-5xl font-bold text-center">
             Loved by the world's best teams
           </h2>
           <div className="text-center mt-6 flex items-center justify-center">

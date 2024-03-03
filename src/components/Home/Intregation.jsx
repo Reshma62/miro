@@ -3,17 +3,17 @@ import { Link } from "react-router-dom";
 import intregaImg from "../../assets/intregation.png";
 const Intregation = () => {
   return (
-    <section className="py-[60px]">
+    <section className="md:py-[60px] py-6">
       <div className="container">
-        <div className="flex justify-between items-center gap-24">
-          <div className="basis-[40%] order-2">
-            <h2 className="  font-bold text-5xl tracking-tighter">
-              Work together, wherever you work
+        <div className="flex md:flex-row flex-col justify-between items-center gap-5 md:gap-24">
+          <div className="md:basis-[40%]">
+            <h2 className="  font-bold text-4xl lg:text-5xl tracking-tighter">
+              Connect your tools, close your tabs
             </h2>
             <p className="text-primary/70 text-lg font-normal  pt-4 pb-10">
-              In the office, remote, or a mix of the two, with Miro, your team
-              can connect, collaborate, and co-create in one space no matter
-              where you are.
+              Whether you want to edit your Google Docs, resolve Jira issues, or
+              collaborate over Zoom, Miro has 100+ integrations with tools you
+              already use and love.
             </p>
             <Link
               to={""}
@@ -23,7 +23,7 @@ const Intregation = () => {
               <FaArrowRight />
             </Link>
           </div>
-          <div className="basis-1/2 order-1">
+          <div className="md:basis-1/2">
             <img src={intregaImg} alt="" />
           </div>
         </div>

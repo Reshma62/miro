@@ -5,7 +5,7 @@ const GenericButton = ({ buttonText }) => {
   return (
     <Link
       to={""}
-      className="px-[22px] py-4 justify-center flex items-center bg-secondary rounded-full gap-2 text-white"
+      className="px-5 lg:px-[22px] py-4  justify-center lg:text-base text-sm flex items-center bg-secondary rounded-full gap-2 text-white"
     >
       {buttonText} <FaArrowRight />
     </Link>

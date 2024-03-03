@@ -4,7 +4,7 @@ import Footer from "../components/shared/footer/Footer";
 
 const RootLayout = () => {
   return (
-    <div className="font-inter ">
+    <div className="font-inter overflow-hidden">
       <Header />
       <main>
         <Outlet />

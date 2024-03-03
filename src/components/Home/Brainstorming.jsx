@@ -5,7 +5,7 @@ import "react-tabs/style/react-tabs.css";
 import brainStrom from "../../assets/Brainstorm.png";
 const Brainstorming = () => {
   return (
-    <section className="py-[90px]">
+    <section className="md:py-[90px] py-6">
       <div className="container">
         <div className="">
           <h2 className="text-primary  text-5xl font-bold  mb-10 tracking-tighter">
@@ -13,7 +13,9 @@ const Brainstorming = () => {
           </h2>
         </div>
         <Tabs>
-          <TabList className={`border-b-0 flex gap-2 mb-7`}>
+          <TabList
+            className={`border-b-0 flex md:flex-row flex-col flex-wrap gap-2 mb-7`}
+          >
             <Tab
               selectedClassName="border-[#F2F2F2] px-6 py-4 rounded-full bg-[#F1F3FD]"
               className={
@@ -73,7 +75,7 @@ const Brainstorming = () => {
           </TabList>
 
           <TabPanel>
-            <div className="flex gap-5">
+            <div className="flex md:flex-row flex-col gap-5">
               <div className="basis-[25%]">
                 <h3 className="mb-4 text-primary text-lg">Brainstorming</h3>
                 <p className="text-primary/70 text-lg font-normal  pt-4 pb-10">
@@ -97,7 +99,7 @@ const Brainstorming = () => {
             </div>
           </TabPanel>
           <TabPanel>
-            <div className="flex gap-5">
+            <div className="flex md:flex-row flex-col gap-5">
               <div className="basis-[25%]">
                 <h3 className="mb-4 text-primary text-lg">Diagramming</h3>
                 <p className="text-primary/70 text-lg font-normal  pt-4 pb-10">
@@ -121,7 +123,7 @@ const Brainstorming = () => {
             </div>
           </TabPanel>
           <TabPanel>
-            <div className="flex gap-5">
+            <div className="flex md:flex-row flex-col gap-5">
               <div className="basis-[25%]">
                 <h3 className="mb-4 text-primary text-lg">
                   Meetings & Workshops
@@ -147,7 +149,7 @@ const Brainstorming = () => {
             </div>
           </TabPanel>
           <TabPanel>
-            <div className="flex gap-5">
+            <div className="flex md:flex-row flex-col gap-5">
               <div className="basis-[25%]">
                 <h3 className="mb-4 text-primary text-lg">Scrum Events</h3>
                 <p className="text-primary/70 text-lg font-normal  pt-4 pb-10">
@@ -171,7 +173,7 @@ const Brainstorming = () => {
             </div>
           </TabPanel>
           <TabPanel>
-            <div className="flex gap-5">
+            <div className="flex md:flex-row flex-col gap-5">
               <div className="basis-[25%]">
                 <h3 className="mb-4 text-primary text-lg">Mapping</h3>
                 <p className="text-primary/70 text-lg font-normal  pt-4 pb-10">
@@ -195,7 +197,7 @@ const Brainstorming = () => {
             </div>
           </TabPanel>
           <TabPanel>
-            <div className="flex gap-5">
+            <div className="flex md:flex-row flex-col gap-5">
               <div className="basis-[25%]">
                 <h3 className="mb-4 text-primary text-lg">Research & Design</h3>
                 <p className="text-primary/70 text-lg font-normal  pt-4 pb-10">
@@ -219,7 +221,7 @@ const Brainstorming = () => {
             </div>
           </TabPanel>
           <TabPanel>
-            <div className="flex gap-5">
+            <div className="flex md:flex-row flex-col gap-5">
               <div className="basis-[25%]">
                 <h3 className="mb-4 text-primary text-lg">
                   Strategic Planning

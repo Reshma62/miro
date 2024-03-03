@@ -6,7 +6,7 @@ import okta from "../../assets/partner/okta.png";
 
 const TrustedUs = () => {
   return (
-    <section className="py-[60px]">
+    <section className="md:py-[60px] py-6">
       <div className="container">
         <h3 className="text-center text-lg text-primary/60 mb-12">
           Trusted by 45M+ users
