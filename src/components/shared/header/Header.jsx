@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { FaAngleDown, FaArrowRight } from "react-icons/fa6";
+import { FaAngleDown, FaArrowRight, FaBarsStaggered } from "react-icons/fa6";
 import Logo from "../../../assets/header/logo.png";
 import { TbWorld } from "react-icons/tb";
 import GenericButton from "../button/GenericButton";
@@ -8,7 +8,7 @@ const Header = () => {
     <header className="lg:px-[30px] px-5 py-6 border-b border-solid border-gray-200">
       <div className="flex justify-between items-center">
         {/* menu and logo */}
-        <nav className="flex items-center gap-6 ">
+        <nav className="flex items-center gap-6  relative w-full">
           <div>
             <img src={Logo} alt="logo" />
           </div>
@@ -42,6 +42,11 @@ const Header = () => {
               </Link>
             </li>
           </ul>
+          <div className="lg:hidden justify-self-end">
+            <FaBarsStaggered size={24} />
+          </div>
+          {/* Mobile menu */}
+          <ul></ul>
         </nav>
         {/* Login button  */}
         <div className=" items-center gap-4 hidden lg:flex">
